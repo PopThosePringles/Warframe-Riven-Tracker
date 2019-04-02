@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^rivens\/? /index.php [NC,QSA,L]
+
+RewriteRule ^primary\/? /index.php?action=primary [NC,QSA,L]
+RewriteRule ^secondary\/? /index.php?action=secondary [NC,QSA,L]
+RewriteRule ^melee\/? /index.php?action=melee [NC,QSA,L]

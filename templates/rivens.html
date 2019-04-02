@@ -1,0 +1,15 @@
+{{ include("includes/header.html") }}
+
+{% for riven in rivens %}
+<div class="riven">
+	<div class="riven-name">{{ riven.type }}{{ riven.rolled }}</div>
+	<ul class="riven-attributes">
+		<li>Average Price <span class="plat">{{ riven.avg|number_format }}</span></li>
+		<li>Minimum Price <span class="plat">{{ riven.min|number_format }}</span></li>
+		<li>Maximum Price <span class="plat">{{ riven.max|number_format }}</span></li>
+		<li>Popularity <span class="pop">{{ riven.pop|number_format(2) }}</span></li>
+	</ul>
+</div>
+{% endfor %}
+
+{{ include("includes/footer.html") }}

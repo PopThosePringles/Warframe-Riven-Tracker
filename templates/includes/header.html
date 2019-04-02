@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Warframe - Riven Tacker</title>
+	<link rel="stylesheet" href="/styles/styles.css" />
+	<link rel="stylesheet" href="/styles/styles_media.css" />
+	<script src="/scripts/jquery-3.3.1.min.js"></script>
+	<script src="/scripts/scripts.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<ul>
+			<li{% if route == "rivens" or route == "" %} class="selected-menu-item"{% endif %}><a href="/rivens/">Rivens</a></li>
+			<li{% if route == "primary" %} class="selected-menu-item"{% endif %}><a href="/primary/">Primary</a></li>
+			<li{% if route == "secondary" %} class="selected-menu-item"{% endif %}><a href="/secondary/">Secondary</a></li>
+			<li{% if route == "melee" %} class="selected-menu-item"{% endif %}><a href="/melee/">Melee</a></li>
+			<li id="zoom-rivens" title="Zoom"><a href="#"><img src="/images/zoom.png" /></a></li>
+		</ul>
+		<span>
+			RIVEN TRACKER
+		</span>
+	</header>
+	<div id="content" class="content">
