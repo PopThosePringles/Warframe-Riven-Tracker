@@ -1,6 +1,6 @@
 ## Warframe Riven Tracker
 
-Live example (PS4): https://rivens.pixeldepth.net
+Live example (PS4): http://pixeldepth.net/warframe/rivens/
 
 ![Preview](misc/preview.png)
 
